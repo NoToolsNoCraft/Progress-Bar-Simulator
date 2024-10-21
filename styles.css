@@ -1,0 +1,62 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    margin-top: -120px;
+}
+
+.progressbar {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.cmp-progressbar__container {
+    border: 1px solid black; /* Static black border around the progress bar */
+    border-radius: 5px;
+    padding: 2px;
+    background-color: white;
+}
+
+.cmp-progressbar__bar {
+    height: 30px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    transition: width 0.5s ease;
+    width: 0%; /* Start with 0% */
+}
+
+.progress-info {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
